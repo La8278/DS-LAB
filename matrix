@@ -1,0 +1,23 @@
+import numpy as np
+a=np.array([1,2,3])
+print("Array element:%s"%a)
+print("Type:%s"%type(a))
+print("Shape:%s"%a.shape)
+
+print(a[0])
+print(a[2])
+
+a[0]=5
+print("New element replaced %s"%a[0])
+
+b=np.ones((1,2))
+print("Ones matrix%s"%b)
+
+c=np.zeros((1,2))
+print("Zero matrix%s"%c)
+
+d=np.eye(3)
+print("Identity matrix%s"%d)
+
+e=np.random.random((2,2))
+print("Random matrix %s"%e)
