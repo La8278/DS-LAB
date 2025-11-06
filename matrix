@@ -56,3 +56,50 @@ U,S,VT=svd(A)
 print("Left singular %s"%U)
 print("Singular %s"%S)
 print("Transpose of right singular %s"%VT)
+
+OUTPUT
+
+Array element:[1 2 3]
+Type:<class 'numpy.ndarray'>
+Shape:3
+1
+3
+New element replaced 5
+Ones matrix[[1. 1.]]
+Zero matrix[[0. 0.]]
+Identity matrix[[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+Random matrix [[0.48083626 0.54291651]
+ [0.93810202 0.22199244]]
+Vectorized sum example
+x [[1 2]
+ [3 4]]
+Sumof all elements:10
+Column wise sum axis=0:[4 6]
+Row wise sum axis=1:[3 7]
+dot product 285
+outer product [[ 0  0  0  0  0  0  0  0  0  0]
+ [ 0  1  2  3  4  5  6  7  8  9]
+ [ 0  2  4  6  8 10 12 14 16 18]
+ [ 0  3  6  9 12 15 18 21 24 27]
+ [ 0  4  8 12 16 20 24 28 32 36]
+ [ 0  5 10 15 20 25 30 35 40 45]
+ [ 0  6 12 18 24 30 36 42 48 54]
+ [ 0  7 14 21 28 35 42 49 56 63]
+ [ 0  8 16 24 32 40 48 56 64 72]
+ [ 0  9 18 27 36 45 54 63 72 81]]
+Element wise product [ 0  1  4  9 16 25 36 49 64 81]
+Original matrix [[1 2]
+ [3 4]]
+Transpose matrix [[1 3]
+ [2 4]]
+A matrix [[1 2]
+ [3 4]
+ [5 6]]
+Left singular [[-0.2298477   0.88346102  0.40824829]
+ [-0.52474482  0.24078249 -0.81649658]
+ [-0.81964194 -0.40189603  0.40824829]]
+Singular [9.52551809 0.51430058]
+Transpose of right singular [[-0.61962948 -0.78489445]
+ [-0.78489445  0.61962948]]
