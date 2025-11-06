@@ -1,0 +1,4 @@
+import matplotlib.pyplot as plt
+data=[19,26,25,37,28,22,23,29,34,39,31]
+plt.boxplot(data,patch_artist=True)
+plt.show()
