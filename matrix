@@ -21,3 +21,38 @@ print("Identity matrix%s"%d)
 
 e=np.random.random((2,2))
 print("Random matrix %s"%e)
+
+print("Vectorized sum example")
+x=np.array([[1,2],[3,4]])
+print("x %s" %x)
+
+print("Sumof all elements:%s" %np.sum(x))
+print("Column wise sum axis=0:%s"%np.sum(x,axis=0))
+print("Row wise sum axis=1:%s"%np.sum(x,axis=1))
+
+a=np.arange(10)
+b=np.arange(10)
+dp=np.dot(a,b)
+print("dot product %s"%dp)
+
+op=np.outer(a,b)
+print("outer product %s"%op)
+
+mp=np.multiply(a,b)
+print("Element wise product %s"%mp)
+
+
+m=np.array([[1,2],[3,4]])
+print("Original matrix %s"%m)
+print("Transpose matrix %s"%m.T)
+
+from numpy import array 
+from scipy.linalg import svd
+ 
+A=array([[1,2],[3,4],[5,6]])
+print("A matrix %s"%A)
+
+U,S,VT=svd(A)
+print("Left singular %s"%U)
+print("Singular %s"%S)
+print("Transpose of right singular %s"%VT)
