@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+classes=['I','II','III','IV','V','VI','VII','VIII','IX','X']
+strength=[40,43,45,47,49,38,50,37,43,39]
+colors=['yellow','red','green','blue','pink','cyan','orange','black','grey','skyblue']
+plt.bar(classes,strength,color=colors,align='center')
+plt.xlabel('Strength')
+plt.ylabel('Class')
+plt.show()
