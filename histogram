@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+weights=[78,72,69,81,63,67,65,79,74,71,83,71,79,80]
+plt.hist(weights,bins=[50,55,60,65,70,75,80,85,90],color='yellow',edgecolor='black')
+plt.title("Histogram")
+plt.xlabel('Weight')
+plt.ylabel('yFrequency')
+plt.show()
