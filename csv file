@@ -21,3 +21,7 @@ data_dict2={
 data2=pd.DataFrame(data_dict2)
 data2.to_csv("customers2.csv")
 print(data2)
+
+df=pd.concat([pd.read_csv("customer1.csv"),pd.read_csv("customer2.csv")],ignore_index=True)
+print(df)
+
